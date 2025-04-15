@@ -1,0 +1,40 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[]) 
+
+{
+	
+	int inicio= 0;
+	int fin =0;
+	int resto = 0;
+	
+	
+	printf("Ingrese un numero: ");
+	scanf("%d", &inicio)
+	
+	
+	printf("El numero es:");
+	scanf("%d", &fin);
+	
+	
+	while(inicio <= fin)
+	{
+		resto = inicio % 2;
+		if (resto == 0)
+		{
+			contador ++;
+		}
+		
+		
+	inicio++;		
+	 
+	} 
+	
+	printf(contador);
+	
+	
+	return 0;
+}

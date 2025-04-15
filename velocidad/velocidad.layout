@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
+
+int main(int argc, char *argv[])
+ {
+ 	{
+
+	double km = 0;
+	double vel = 0 ;
+	
+	printf("Ingrese la velocidad: ");
+	scanf("%lf" &vel);
+	
+	vel = (km * (5/18));
+	printf("Los metros por segundo son: %", vel);
+	
+	
+}
+	
+
+	
+	
+	return 0;
+}
